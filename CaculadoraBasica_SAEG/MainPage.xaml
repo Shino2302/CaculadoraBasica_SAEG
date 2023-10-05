@@ -58,6 +58,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
+                    Clicked="Button_Clicked_Division"
                     ></Button>
                 <Button 
                     Grid.Column="0" 
@@ -105,6 +106,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
+                    Clicked="Button_Clicked_Multi"
                     ></Button>
                 <Button 
                     Grid.Column="0" 
@@ -152,7 +154,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    
+                    Clicked="Button_Clicked_Resta"
                     ></Button>
                 <Button 
                     Grid.Column="0" 
@@ -200,6 +202,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
+                    Clicked="Button_Clicked_Suma"
                     ></Button>
                 <Button 
                     Grid.Column="0" 
