@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CaculadoraBasica_SAEG.MainPage">
+    <ContentPage.Resources>
+        <StyleSheetExtension Source="/Styles/StylesCalculator.css"></StyleSheetExtension>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Frame BackgroundColor="#000000" Padding="24" CornerRadius="0">
+            <Label IsEnabled="False" HorizontalTextAlignment="End" TextColor="White" FontSize="36" x:Name="Resultado"/>
+        </Frame>
+        <StackLayout StyleClass="Botones">
+            <Grid>
+                <Button 
+                    Grid.Column="0" 
+                    Grid.Row="0" 
+                    Text="AC" 
+                    StyleClass="BotonFunciones"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked"
+                    ></Button>
+                <Button 
+                    Grid.Column="1" 
+                    Grid.Row="0" 
+                    Text="Borrar"
+                    StyleClass="BotonFunciones"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="18"
+                    Clicked="Button_Clicked_Borrar"
+                    ></Button>
+                <Button 
+                    Grid.Column="2" 
+                    Grid.Row="0" 
+                    Text="" 
+                    StyleClass="si"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#000000"
+                    ></Button>
+                <Button 
+                    Grid.Column="3" 
+                    Grid.Row="0" 
+                    Text="/" 
+                    StyleClass="BotonFunciones"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    ></Button>
+                <Button 
+                    Grid.Column="0" 
+                    Grid.Row="1" 
+                    Text="7" 
+                    StyleClass="BotonConValor"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_7"
+                    ></Button>
+                <Button 
+                    Grid.Column="1" 
+                    Grid.Row="1" 
+                    Text="8" 
+                    StyleClass="BotonConValor"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_8"
+                    ></Button>
+                <Button 
+                    Grid.Column="2" 
+                    Grid.Row="1" 
+                    Text="9" 
+                    StyleClass="BotonConValor"
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_9"
+                    ></Button>
+                <Button 
+                    Grid.Column="3" 
+                    Grid.Row="1" 
+                    Text="*" 
+                    StyleClass="BotonFunciones" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    ></Button>
+                <Button 
+                    Grid.Column="0" 
+                    Grid.Row="2" 
+                    Text="4" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_4"
+                    ></Button>
+                <Button 
+                    Grid.Column="1" 
+                    Grid.Row="2" 
+                    Text="5" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_5"
+                    ></Button>
+                <Button 
+                    Grid.Column="2" 
+                    Grid.Row="2" 
+                    Text="6" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_6"
+                    ></Button>
+                <Button 
+                    Grid.Column="3" 
+                    Grid.Row="2" 
+                    Text="-" 
+                    StyleClass="BotonFunciones" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    
+                    ></Button>
+                <Button 
+                    Grid.Column="0" 
+                    Grid.Row="3" 
+                    Text="1" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_1"
+                    ></Button>
+                <Button 
+                    Grid.Column="1" 
+                    Grid.Row="3" 
+                    Text="2" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_2"
+                    ></Button>
+                <Button 
+                    Grid.Column="2" 
+                    Grid.Row="3" 
+                    Text="3" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_3"
+                    ></Button>
+                <Button 
+                    Grid.Column="3" 
+                    Grid.Row="3" 
+                    Text="+" 
+                    StyleClass="BotonFunciones" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    ></Button>
+                <Button 
+                    Grid.Column="0" 
+                    Grid.Row="4" 
+                    Text="MOD" 
+                    StyleClass="BotonFunciones" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="18"
+                    Clicked="Button_Clicked_Mod"
+                    ></Button>
+                <Button 
+                    Grid.Column="1" 
+                    Grid.Row="4" 
+                    Text="0" 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_0"
+                    ></Button>
+                <Button 
+                    Grid.Column="2" 
+                    Grid.Row="4" 
+                    Text="." 
+                    StyleClass="BotonConValor" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Point"
+                    ></Button>
+                <Button 
+                    Grid.Column="3" 
+                    Grid.Row="4" 
+                    Text="=" 
+                    StyleClass="BotonResultado" 
+                    WidthRequest="80"
+                    HeightRequest=" 80"
+                    CornerRadius="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_Resultado"
+                    ></Button>
+            </Grid>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

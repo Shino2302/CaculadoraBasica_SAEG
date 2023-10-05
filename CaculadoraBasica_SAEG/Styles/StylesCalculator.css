@@ -1,0 +1,21 @@
+﻿button.BotonFunciones{
+    color:darkorange;
+    font-size:25;
+    font-style:bold;
+    background-color:#000000;
+}
+button.BotonConValor {
+    color: #ffffff;
+    font-size: 25;
+    font-style: bold;
+    background-color: #000000;
+}
+button.BotonResultado {
+    background-color: darkorange;
+    color:#ffffff;
+    font-size:25;
+    font-style: bold;
+}
+^ContentPage{    
+    background-color:#000000;
+}
