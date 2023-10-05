@@ -26,7 +26,6 @@
                 <Button 
                     Grid.Column="1" 
                     Grid.Row="0" 
-                    Text="Borrar"
                     StyleClass="BotonFunciones"
                     WidthRequest="80"
                     HeightRequest=" 80"
@@ -35,6 +34,7 @@
                     HorizontalOptions="Center"
                     FontSize="18"
                     Clicked="Button_Clicked_Borrar"
+                    ImageSource="https://i.ibb.co/Zz5Bk0V/borrar.png"
                     ></Button>
                 <Button 
                     Grid.Column="2" 
@@ -70,7 +70,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_7"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="1" 
@@ -82,7 +82,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_8"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="2" 
@@ -94,7 +94,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_9"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="3" 
@@ -118,7 +118,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_4"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="1" 
@@ -130,7 +130,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_5"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="2" 
@@ -142,7 +142,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_6"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="3" 
@@ -166,7 +166,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_1"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="1" 
@@ -178,7 +178,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_2"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="2" 
@@ -190,7 +190,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_3"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="3" 
@@ -227,7 +227,7 @@
                     CornerRadius="40"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked_0"
+                    Clicked="Button_Clicked_Numeros"
                     ></Button>
                 <Button 
                     Grid.Column="2" 
